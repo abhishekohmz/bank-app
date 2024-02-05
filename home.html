@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <div style="background-color: rgba(6, 6, 120, 0.708); margin-top: 5%; border-radius: 20px; height: 90px;"
+                class="container">
+                <h1 style="color: rgb(255, 255, 255); text-align: center;">Welocme User </h1>
+                <p style="text-align: center; color: white;">Online Banking Services</p>
+            </div>
+
+           <div class="row">
+            <div class="col-6 d-flex flex-column mt-5">
+                <div>
+                    <h3>Deposit</h3>
+                </div>
+
+                
+                    <div id="div1" class="w-75 card shadow rounded-4 m-5 p-5"  style="background-image: url(https://wallpaperaccess.com/full/2312215.jpg);">
+                    
+                           
+                        
+                        <div>
+                            <input id="dep_amount" placeholder="Enter Your Amount"
+                                 type="text"
+                                class="form-control mb-3">
+    
+                            <input id="dep_acno" placeholder="Enter Your Account number"
+                                type="text"
+                                class="form-control">
+                            <button onclick="deposit()" 
+                                class="btn btn-primary mt-3 ">Deposit</button>
+                            <p id="balance">
+    
+                            </p>
+                        </div>
+                    </div>
+                
+
+            </div>
+
+            <div class="col-6 d-flex flex-column mt-5">
+
+                <div>
+                    <h3>
+                        withdrawal</h3>
+                </div>
+
+                    <div class="w-75  card shadow rounded-4 m-5 p-5"  style="background-image: url(https://wallpaperaccess.com/full/2312215.jpg);">
+                       
+                            
+                        
+                        <div >
+                            <input id="wd_amount" placeholder="Enter Your Amount"
+                                 type="text"
+                                class="form-control mb-3">
+    
+                                <input id="wd_acno" placeholder="Enter Your Account number"
+                                 type="text"
+                                class="form-control    ">
+                                <button onclick="withdrawal()"  class="btn btn-primary mt-3">Withdraw</button>
+    
+    
+                                <div id="withdraw_amount">
+            
+                                </div>
+                        </div>
+                </div>
+
+            </div>
+            <center>
+                <div class="container w-50 ">
+                    <button onclick="logout()" class="btn btn-danger">LogOut</button>
+                </div>
+            </center>
+
+           </div>
+            
+
+
+        </div>
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>

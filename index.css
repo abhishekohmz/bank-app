@@ -1,0 +1,61 @@
+@media screen and (max-width:400px) {
+
+    #bankimg{
+        margin-top: 100px;
+    }
+    #bankpara{
+        font-size: 10px;
+    }
+    #bankbuttton{
+        width: 100px;
+        align-items: center;
+        height: 30px;
+        font-size: 10px;
+    }
+    #payment img{
+        margin-top: 60px;
+    }
+    #payment p{
+        font-size: 10px;
+    }
+    #payment h4{
+        font-size: 15px;
+    }
+    #nav img{
+width: 30px;
+height: 20px;
+    }
+ #navbtn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 5px;
+   
+ }
+ #navbtn button{
+    width: 50px;
+    font-size: 10px;
+    padding: 5px;
+ }
+ Footer{
+    font-size: 10px;
+ }
+ #Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    text-decoration: none;
+    gap: 5px;
+ }
+ #Mybank{
+    margin-top: -40px;
+ }
+ #Contact{
+    font-size: 10px;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+ }
+}
